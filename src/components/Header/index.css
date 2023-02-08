@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.nav-header {
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.logo {
+  width: 35px;
+  margin-right: 10px;
+}
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+}
+.sub-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 575px) {
+  li {
+    font-size: 20px;
+  }
+}
+.link {
+  text-decoration: none;
+}
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 34px;
+  }
+}
